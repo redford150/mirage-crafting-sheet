@@ -1,0 +1,1530 @@
+[
+  {
+    "id": "fixer material crate",
+    "displayName": "fixer material crate",
+    "level": "Level 0",
+    "category": "Container",
+    "materials": {},
+    "additionalItems": {
+      "Materials": 2000
+    }
+  },
+  {
+    "id": "lockpick",
+    "displayName": "Lockpick",
+    "level": "Level 0",
+    "category": "Tool",
+    "materials": {
+        "plastic": 5,
+        "scrap": 10,
+        "rubber": 15
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "hackers toolkit",
+    "displayName": "Hacker's toolkit",
+    "level": "Level 0",
+    "category": "Tool",
+    "materials":{
+        "electronics": 380,
+        "scrap": 380,
+        "tech shavings": 40
+    }
+  },
+  {
+    "id": "advanced lockpick",
+    "displayName": "Advanced Lockpick",
+    "blueprint": "Blueprint Required",
+    "level": "Level 0",
+    "category": "Tool",
+    "materials": {
+        "scrap": 30,
+        "plastic": 30,
+        "aluminium": 30
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "scale",
+    "displayName": "Scale",
+    "blueprint": "Blueprint Required",
+    "level": "Level 0",
+    "category": "Tool",
+    "materials": {
+        "scrap": 10,
+        "plastic": 25,
+        "glass": 10,
+        "electronics": 5
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "screw driver set",
+    "displayName": "Screw Driver Set",
+    "level": "Level 1",
+    "category": "Tool",
+    "materials": {
+        "aluminium": 10,
+        "plastic": 10,
+        "scrap": 10
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "fake plate",
+    "displayName": "Fake Plate",
+    "level": "Level 2",
+    "category": "Tool",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "scrap": 225,
+        "plastic": 150,
+        "steel": 75,
+        "aluminium": 75
+    },
+    "additionalItems": {}
+  },
+      {
+    "id": "Steel Plate",
+    "displayName": "Steel Plate",
+    "level": "Level 5",
+    "category": "Tool",
+    "materials": {
+    },
+    "additionalItems": {
+        "Steel": 10
+    }
+  },
+    {
+    "id": "Copper Plate",
+    "displayName": "Copper Plate",
+    "level": "Level 5",
+    "category": "Tool",
+    "materials": {
+    },
+    "additionalItems": {
+        "copper": 10
+    }
+  },
+  {
+    "id": "Copper",
+    "displayName": "Copper",
+    "level": "Level 5",
+    "category": "Tool",
+    "materials": {
+    },
+    "additionalItems": {
+        "copper ore": 10
+    }
+  },
+  {
+    "id": "Gold",
+    "displayName": "Gold",
+    "level": "Level 5",
+    "category": "Tool",
+    "materials": {
+    },
+    "additionalItems": {
+        "gold nuggets": 10
+    }
+  },
+  {
+    "id": "Gunpowder",
+    "displayName": "Gunpowder",
+    "level": "Level 5",
+    "category": "Tool",
+    "materials": {
+    },
+    "additionalItems": {
+        "sulfur powder": 25,
+        "charcoal": 15
+    }
+  },
+  {
+    "id": "ziptie",
+    "displayName": "Ziptie",
+    "level": "Level 5",
+    "category": "Tool",
+    "materials": {
+        "wire": 25,
+        "plastic": 55,
+        "steel": 35,
+        "aluminium": 25
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "heavy cutters",
+    "displayName": "Heavy Cutters",
+    "level": "Level 5",
+    "category": "Tool",
+    "materials": {
+        "plastic": 15,
+        "rubber": 15,
+        "scrap": 40,
+        "steel": 15
+    },
+    "additionalItems": {
+        "titanium": 5
+    }
+  },
+  {
+    "id": "manhole remover",
+    "displayName": "Manhole Remover",
+    "level": "Level 10",
+    "category": "Tool",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "scrap": 25,
+        "steel": 55,
+        "aluminium": 75
+    },
+    "additionalItems": {
+        "titanium": 15
+    }
+  },
+  {
+    "id": "safe cracker",
+    "displayName": "Safe Cracker",
+    "level": "Level 12",
+    "category": "Tool",
+    "materials": {
+        "scrap": 25,
+        "plastic": 10,
+        "aluminium": 75,
+        "steel": 55
+    },
+    "additionalItems": {
+        "titanium": 5
+    }
+  },
+  {
+    "id": "heavy duty drill",
+    "displayName": "Heavy Duty Drill",
+    "level": "Level 15",
+    "category": "Tool",
+    "materials": {
+        "scrap": 380,
+        "plastic": 750,
+        "steel": 530,
+        "rubber": 450,
+        "electronics": 450
+    },
+    "additionalItems": {
+        "titanium": 15,
+        "control chip": 5,
+        "circuit board": 5,
+        "power supply": 5
+    }
+  },
+  {
+    "id": "racing tablet",
+    "displayName": "Racing Tablet",
+    "level": "Level 15",
+    "category": "Tool",
+    "materials": {
+        "electronics": 150,
+        "plastic": 15,
+        "wire": 375,
+        "glass": 375,
+        "rubber": 40
+    },
+    "additionalItems": {
+        "broken tablet": 1,
+        "circuit board": 2,
+        "control chip": 2,
+        "power supply": 2
+    }
+  },
+  {
+    "id": "tool belt",
+    "displayName": "Tool Belt",
+    "level": "Level 18",
+    "category": "Tool",
+    "materials": {
+    },
+    "additionalItems": {
+        "Leather Hide": 40,
+        "Sewing Thread": 75
+    }
+  },
+  {
+    "id": "hacking device",
+    "displayName": "Hacking Device",
+    "level": "Level 20",
+    "category": "Tool",
+    "materials": {
+      "electronics": 380,
+      "wire": 115,
+      "steel": 190,
+      "rubber": 380,
+      "scrap": 525
+    },
+    "additionalItems": {
+      "control chip": 2,
+      "circuit board": 2,
+      "power supply": 2
+    }
+  },
+  {
+    "id": "exotic lockpick",
+    "displayName": "Exotic Lockpick",
+    "level": "Level 20",
+    "category": "Tool",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "scrap": 250,
+        "plastic": 250,
+        "aluminium": 250
+    },
+    "additionalItems": {
+        "titanium": 50
+    }
+  },
+  {
+    "id": "meth lab kit",
+    "displayName": "Meth Lab Kit",
+    "level": "Level 20",
+    "category": "Tool",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "scrap": 750,
+        "plastic": 750,
+        "aluminium": 750
+    },
+    "additionalItems": {
+        "titanium": 150
+    }
+  },
+  {
+    "id": "advanced radio",
+    "displayName": "Advanced Radio",
+    "level": "Level 23",
+    "category": "Tool",
+    "materials": {
+    },
+    "additionalItems": {
+      "USB device": 1,
+      "Hacking device": 1,
+      "radio": 1,
+      "circuit board": 1,
+      "control chip": 1,
+      "power supply": 1
+    }
+  },
+  {
+    "id": "unknown usb device",
+    "displayName": "Unknown USB Device",
+    "level": "Level 25",
+    "category": "Tool",
+    "materials": {
+        "electronics": 150,
+        "plastic": 75,
+        "wire": 25,
+        "rubber": 10
+    },
+    "additionalItems": {
+        "broken usb": 1,
+        "circuit board": 1
+    }
+  },
+  {
+    "id": "Bag of Clothes",
+    "displayName": "Bag of Clothes",
+    "level": "Level 25",
+    "category": "Tool",
+    "materials": {
+    },
+    "additionalItems": {
+        "Luminosity Jersey": 1,
+        "G2 Jersey": 1,
+        "TSM Jersey": 1,
+        "FNATIC Jersey": 1,
+        "Cloud9 Jersey": 1,
+        "FAZE Jersey": 1,
+        "LIQUID Jersey": 1,
+        "OPTIC Jersey": 1
+    }
+  },
+  {
+    "id": "drill battery",
+    "displayName": "Drill Battery",
+    "level": "Level 25",
+    "category": "Tool",
+    "materials": {
+    },
+    "additionalItems": {
+        "Super Cell Battery": 150
+    }
+  },
+  {
+    "id": "drill bit mold",
+    "displayName": "Drill Bit Mold",
+    "level": "Level 25",
+    "category": "Tool",
+    "materials": {
+        "plastic": 75,
+        "rubber": 380
+    },
+    "additionalItems": {}
+  },
+    {
+    "id": "drill bit",
+    "displayName": "Drill Bit",
+    "level": "Level 25",
+    "category": "Tool",
+    "materials": {
+        "steel": 500
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "drill housing",
+    "displayName": "Drill Housing",
+    "level": "Level 25",
+    "category": "Tool",
+    "materials": {
+      "electronics": 380,
+      "plastic": 380,
+      "rubber": 380,
+      "scrap": 380,
+      "steel": 380
+    },
+    "additionalItems": {
+      "titanium": 115,
+      "control chip": 3,
+      "circuit board": 3,
+      "power supply": 3
+    }
+  },
+    {
+    "id": "drug crate",
+    "displayName": "Drug Crate",
+    "level": "Level 25",
+    "category": "Container",
+    "materials": {
+      "plastic": 40,
+      "aluminium": 30,
+      "rubber": 25,
+      "steel": 50
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "hypercore drill",
+    "displayName": "HyperCore Drill",
+    "level": "Level 30",
+    "blueprint": "Blueprint Required",
+    "category": "Tool",
+    "materials": {
+        "scrap": 400
+    },
+    "additionalItems": {
+        "Drill Battery": 1,
+        "Drill Housing": 1,
+        "Drill Bit": 1
+    }
+  },
+    {
+    "id": "Aluminum Oxide",
+    "displayName": "Aluminum Oxide",
+    "level": "Level 35",
+    "category": "Tool",
+    "materials": {
+        "aluminium": 25
+    },
+    "additionalItems": {
+      "gunpowder": 25
+    }
+  },
+      {
+    "id": "Iron Oxide",
+    "displayName": "Iron Oxide",
+    "level": "Level 35",
+    "category": "Tool",
+    "materials": {
+        "steel": 25
+    },
+    "additionalItems": {
+      "gunpowder": 25
+    }
+  },
+  {
+    "id": "Digital Scanner",
+    "displayName": "Digital Scanner",
+    "level": "Level 35",
+    "blueprint": "Blueprint Required",
+    "category": "Tool",
+    "materials": {
+        "electronics": 530,
+        "plastic": 230,
+        "wire": 265
+    },
+    "additionalItems": {
+        "titanium": 75,
+        "tech shavings": 45,
+        "circuit board": 3,
+        "control chip": 3,
+        "power supply": 3
+    }
+  },
+  {
+    "id": "ECU Hacking Device",
+    "displayName": "ECU Hacking Device",
+    "level": "Level 35",
+    "blueprint": "Blueprint Required",
+    "category": "Tool",
+    "materials": {
+        "electronics": 230,
+        "wire": 230
+    },
+    "additionalItems": {
+        "tech shavings": 25,
+        "circuit board": 3,
+        "control chip": 3,
+        "power supply": 3
+    }
+  },
+  {
+    "id": "vpn",
+    "displayName": "VPN",
+    "level": "Level 35",
+    "category": "Tool",
+    "materials": {
+        "electronics": 375,
+        "scrap": 375,
+        "rubber": 150,
+        "steel": 115,
+        "wire": 40
+    },
+    "additionalItems": {
+        "Broken VPN": 1,
+        "circuit board": 5,
+        "control chip": 5,
+        "power supply": 5
+    }
+  },
+  {
+    "id": "skimmer",
+    "displayName": "Skimmer",
+    "level": "Level 37",
+    "category": "Tool",
+    "materials": {
+        "steel": 75,
+        "wire": 25,
+        "scrap": 250,
+        "electronics": 250,
+        "rubber": 100
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "10 blank cards",
+    "displayName": "10 Blank Cards",
+    "level": "Level 37",
+    "category": "Tool",
+    "materials": {
+        "plastic": 150,
+        "electronics": 30
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "Respray Can",
+    "displayName": "Respray Can",
+    "level": "Level 40",
+    "category": "Tool",
+    "materials": {
+        "plastic": 50,
+        "aluminium": 50,
+        "scrap": 50,
+        "rubber": 50
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "Encrypted Laptop",
+    "displayName": "Encrypted laptop",
+    "level": "Level 40",
+    "category": "Tool",
+    "materials": {
+        "plastic": 375,
+        "wire": 750,
+        "glass": 750,
+        "electronics": 1125,
+        "rubber": 750
+    },
+    "additionalItems": {
+      "broken laptop": 1,
+      "circuit board": 5,
+      "control chip": 5,
+      "power supply": 5
+    }
+  },
+  {
+    "id": "Info Laptop",
+    "displayName": "Info laptop",
+    "level": "Level 40",
+    "category": "Tool",
+    "materials": {
+        "plastic": 375,
+        "wire": 750,
+        "glass": 750,
+        "electronics": 1125,
+        "rubber": 750
+    },
+    "additionalItems": {
+      "broken laptop": 1,
+      "circuit board": 5,
+      "control chip": 5,
+      "power supply": 5
+    }
+  },
+  {
+    "id": "thermite",
+    "displayName": "Thermite",
+    "level": "Level 40",
+    "category": "Tool",
+    "materials": {
+    },
+    "additionalItems": {
+      "Thermite Powder (25 Large Notes)": 5
+    }
+  },
+  {
+    "id": "spike strip",
+    "displayName": "Spike Strip",
+    "level": "Level 60",
+    "category": "Tool",
+    "materials": {
+      "aluminium": 500,
+      "rubber": 500,
+      "steel": 500,
+      "plastic": 500
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "Pink Spray Can",
+    "displayName": "Pink Spray Can",
+    "level": "Level 60",
+    "category": "Tool",
+    "materials": {},
+    "additionalItems": {
+      "zinc Ore": 4,
+      "copper ore": 2,
+      "tin ore": 2
+    }
+  },
+  {
+    "id": "Orange Spray Can",
+    "displayName": "Orange Spray Can",
+    "level": "Level 60",
+    "category": "Tool",
+    "materials": {},
+    "additionalItems": {
+      "zinc Ore": 3,
+      "copper ore": 3,
+      "tin ore": 2
+    }
+  },
+  {
+    "id": "switchblade",
+    "displayName": "Switchblade",
+    "level": "Level 0",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "aluminium": 30,
+        "plastic": 55,
+        "scrap": 75
+    },
+    "additionalItems": {
+        "titanium": 5
+    }
+  },
+  {
+    "id": "machete",
+    "displayName": "Machete",
+    "level": "Level 5",
+    "category": "Weapon",
+    "materials": {
+        "aluminium": 30,
+        "plastic": 55,
+        "scrap": 75
+    },
+    "additionalItems": {
+        "titanium": 5
+    }
+  },
+  {
+    "id": "battleaxe",
+    "displayName": "Battleaxe",
+    "level": "Level 7",
+    "category": "Weapon",
+    "materials": {
+        "aluminium": 75,
+        "plastic": 55,
+        "scrap": 75
+    },
+    "additionalItems": {
+        "titanium": 5
+    }
+  },
+  {
+    "id": "Golf Club",
+    "displayName": "Golf Club",
+    "level": "Level 10",
+    "category": "Weapon",
+    "materials": {
+        "aluminium": 60,
+        "plastic": 60,
+        "scrap": 90
+    },
+    "additionalItems": {
+        "titanium": 10
+    }
+  },
+  {
+    "id": "Broken Bottle",
+    "displayName": "Broken Bottle",
+    "level": "Level 15",
+    "category": "Weapon",
+    "materials": {
+        "aluminium": 45,
+        "plastic": 45,
+        "scrap": 70
+    },
+    "additionalItems": {
+        "titanium": 8
+    }
+  },
+  {
+    "id": "Pool Cue",
+    "displayName": "Pool Cue",
+    "level": "Level 17",
+    "category": "Weapon",
+    "materials": {
+        "aluminium": 45,
+        "plastic": 45,
+        "scrap": 70
+    },
+    "additionalItems": {
+        "titanium": 8
+    }
+  },
+  {
+    "id": "Pan",
+    "displayName": "Pan",
+    "level": "Level 23",
+    "category": "Weapon",
+    "materials": {
+        "aluminium": 45,
+        "plastic": 45,
+        "scrap": 85
+    },
+    "additionalItems": {
+        "titanium": 15
+    }
+  },
+  {
+    "id": "Karambit",
+    "displayName": "Karambit",
+    "level": "Level 60",
+    "category": "Weapon",
+    "materials": {
+        "steel": 100,
+        "aluminium": 100,
+        "scrap": 250
+    },
+    "additionalItems": {
+        "titanium": 50
+    }
+  },
+  
+  {
+    "id": "beretta",
+    "displayName": "Beretta",
+    "level": "Level 25",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "steel plate": 2,
+        "Pistol Clip": 1,
+        "Gun Trigger": 1,
+        "titanium": 35,
+        "Pistol Slide": 1,
+        "Pistol Grip": 1
+    }
+  },
+    {
+    "id": "Glock G45",
+    "displayName": "Glock G45",
+    "level": "Level 35",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "steel plate": 2,
+        "Pistol Clip": 1,
+        "Gun Trigger": 1,
+        "titanium": 75,
+        "Pistol Slide": 1,
+        "Pistol Grip": 1
+    }
+  },
+  {
+    "id": "vintage pistol",
+    "displayName": "Vintage Pistol",
+    "level": "Level 20",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "steel plate": 2,
+        "titanium": 40,
+        "Pistol Clip": 1,
+        "Gun Trigger": 1,
+        "Pistol Slide": 1,
+        "Pistol Grip": 1
+    }
+  },
+  {
+    "id": "double action revolver",
+    "displayName": "Double Action Revolver",
+    "level": "Level 25",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "steel plate": 2,
+        "titanium": 20,
+        "Pistol Clip": 1,
+        "Gun Trigger": 1,
+        "Pistol Slide": 1,
+        "Pistol Grip": 1
+    }
+  },
+  {
+    "id": "heavy revolver",
+    "displayName": "Heavy Revolver",
+    "level": "Level 25",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "steel plate": 2,
+        "titanium": 40,
+        "Pistol Clip": 1,
+        "Gun Trigger": 1,
+        "Pistol Grip": 1,
+        "Pistol Slide": 1
+    }
+  },
+  {
+    "id": "deagle",
+    "displayName": "Deagle",
+    "level": "Level 25",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "steel plate": 2,
+        "titanium": 60,
+        "Pistol Clip": 1,
+        "Gun Trigger": 1,
+        "Pistol Grip": 1,
+        "Pistol Slide": 1
+    }
+  },
+  {
+    "id": "heavy pistol",
+    "displayName": "Heavy Pistol",
+    "level": "Level 25",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "steel plate": 2,
+        "titanium": 22,
+        "Pistol Clip": 1,
+        "Gun Trigger": 1,
+        "Pistol Grip": 1,
+        "Pistol Slide": 1
+    }
+  },
+  {
+    "id": "double barrel shotgun",
+    "displayName": "Double Barrel Shotgun",
+    "level": "Level 35",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "Shotgun Trigger": 1,
+        "Bolt Assembly": 1,
+        "Shotgun Foreend": 1,
+        "Metal Spring": 1,
+        "Shotgun Barrel": 1,
+        "Shotgun Stock": 1,
+        "Gun Trigger": 1,
+        "titanium": 80
+    }
+  },
+  {
+    "id": "super shorty",
+    "displayName": "Super Shorty",
+    "level": "Unknown",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "Shotgun Trigger": 1,
+        "Bolt Assembly": 1,
+        "Shotgun Foreend": 1,
+        "Metal Spring": 1,
+        "Shotgun Barrel": 1,
+        "Shotgun Stock": 1,
+        "Gun Trigger": 1,
+        "titanium": 120
+    }
+  },
+  {
+    "id": "kel-tec KSG",
+    "displayName": "Kel-Tec KSG",
+    "level": "Unknown",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "Shotgun Trigger": 1,
+        "Bolt Assembly": 1,
+        "Shotgun Foreend": 1,
+        "Metal Spring": 1,
+        "Shotgun Barrel": 1,
+        "Shotgun Stock": 1,
+        "Gun Trigger": 1,
+        "titanium": 150
+    }
+  },
+  {
+    "id": "molot vepr-12",
+    "displayName": "Molot Vepr-12",
+    "level": "Unknown",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "Bolt Assembly": 1,
+        "Shotgun Foreend": 1,
+        "Shotgun Barrel": 1,
+        "Shotgun Stock": 1,
+        "Metal Spring": 1,
+        "Shotgun Trigger": 1,
+        "Gun Trigger": 1,
+        "titanium": 135
+    }
+  },
+  {
+    "id": "Tec 9",
+    "displayName": "Tec 9",
+    "level": "Level 35",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+      "plastic": 250
+    },
+    "additionalItems": {
+        "steel plate": 2,
+        "titanium": 150,
+        "Pistol Clip": 1,
+        "Gun Trigger": 1,
+        "Pistol Slide": 1,
+        "Pistol Grip": 1,
+        "Metal Spring": 1
+    }
+  },
+    {
+    "id": "SIG Sauer MPX",
+    "displayName": "SIG Sauer MPX",
+    "level": "Level 35",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "steel plate": 4,
+        "titanium": 75,
+        "SMG Extractor": 1,
+        "Bolt Assembly": 1,
+        "SMG Mag": 1,
+        "Gun Trigger": 1,
+        "Metal Spring": 1,
+        "SMG Barrel": 1
+    }
+  },
+    {
+    "id": "MCX",
+    "displayName": "MCX",
+    "level": "Level 35",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+    },
+    "additionalItems": {
+        "steel plate": 4,
+        "titanium": 100, 
+        "SMG Extractor": 1, 
+        "Bolt Assembly": 1, 
+        "SMG Mag": 1, 
+        "Gun Trigger": 1, 
+        "Metal Spring": 1, 
+        "SMG Barrel": 1 
+    }
+  },
+  {
+    "id": "skorpion",
+    "displayName": "Skorpion",
+    "level": "Level 45",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+      "plastic": 250
+    },
+    "additionalItems": {
+        "steel plate": 4,
+        "SMG Barrel": 1,
+        "Bolt Assembly": 1,
+        "Metal Spring": 1,
+        "SMG Mag": 1,
+        "SMG Extractor": 1,
+        "Gun Trigger": 1,
+        "titanium": 100
+    }
+  },
+  {
+    "id": "mac-10",
+    "displayName": "Mac-10",
+    "level": "Level 58",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {},
+    "additionalItems": {
+        "steel plate": 4,
+        "SMG Barrel": 1, 
+        "Bolt Assembly": 1, 
+        "Metal Spring": 1, 
+        "SMG Mag": 1, 
+        "SMG Extractor": 1, 
+        "Gun Trigger": 1, 
+        "titanium": 100 
+    }
+  },
+  {
+    "id": "hk-ump",
+    "displayName": "HK-UMP",
+    "level": "Level 58",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {},
+    "additionalItems": {
+        "steel plate": 4,
+        "SMG Barrel": 1, 
+        "Bolt Assembly": 1, 
+        "Metal Spring": 1, 
+        "SMG Mag": 1, 
+        "SMG Extractor": 1, 
+        "Gun Trigger": 1, 
+        "titanium": 190 
+    }
+  },
+  {
+    "id": "Magpul PDR",
+    "displayName": "Magpul PDR",
+    "level": "Unknown",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {},
+    "additionalItems": {
+        "steel plate": 4,
+        "SMG Barrel": 1,    
+        "Bolt Assembly": 1, 
+        "Metal Spring": 1,  
+        "SMG Mag": 1,      
+        "SMG Extractor": 1, 
+        "Gun Trigger": 1,   
+        "titanium": 190     
+    }
+  },
+  {
+    "id": "AK47",
+    "displayName": "AK47",
+    "level": "Unknown",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {},
+    "additionalItems": {
+        "AK Stock": 1,    
+        "AK Mag": 1, 
+        "AK Barrel Pin": 1,  
+        "AK Piston Pin": 1,      
+        "AK Barrel": 1, 
+        "AK Bolt": 1,   
+        "AK Receiver Cover": 1,  
+        "titanium": 350     
+    }
+  },
+  {
+    "id": "demonfire rifle",
+    "displayName": "Demonfire Rifle",
+    "level": "Unknown",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {},
+    "additionalItems": {
+        "rifle Stock": 1,    
+        "rifle Stock tube": 1, 
+        "gun trigger": 1,  
+        "rifle barrel": 1,      
+        "metal spring": 1, 
+        "bolt assembly": 1,   
+        "rifle grip": 1,  
+        "rifle reciever": 1,  
+        "steel plate": 6,  
+        "titanium": 340     
+    }
+  },
+   {
+    "id": "interseteller rifle",
+    "displayName": "Intersteller Rifle",
+    "level": "Unknown",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {},
+    "additionalItems": {
+        "rifle Stock": 1,    
+        "rifle Stock tube": 1, 
+        "gun trigger": 1,  
+        "rifle barrel": 1,      
+        "metal spring": 1, 
+        "bolt assembly": 1,   
+        "rifle grip": 1,  
+        "rifle reciever": 1,  
+        "steel plate": 6,  
+        "titanium": 340     
+    }
+  },
+  {
+    "id": "ap pistol",
+    "displayName": "AP Pistol",
+    "level": "Unknown",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+      "plastic": 250,
+      "steel": 250
+    },
+    "additionalItems": {
+        "titanium": 225,
+        "Pistol Clip": 1,
+        "Gun Trigger": 1,
+        "Pistol Slide": 1,
+        "steel plate": 2,
+        "Pistol Grip": 1
+    }
+  },
+  {
+    "id": "molly",
+    "displayName": "Molly",
+    "level": "Unknown",
+    "category": "Weapon",
+    "blueprint": "Blueprint Required",
+    "materials": {
+      "glass": 300
+    },
+    "additionalItems": {
+        "Black Russian": 5,    
+        "Moscow Mule": 5, 
+        "Dirty Shirley": 5,  
+        "Screwdriver": 5    
+    }
+  },
+  {
+    "id": "metal spring",
+    "displayName": "Metal Spring",
+    "level": "Level 6",
+    "category": "Weapon Parts",
+    "materials": {
+        "scrap": 15,
+        "plastic": 120,
+        "aluminium": 30
+    },
+    "additionalItems": {
+    }
+  },
+  {
+    "id": "bolt assembly",
+    "displayName": "Bolt Assembly",
+    "level": "Level 6",
+    "category": "Weapon Parts",
+    "materials": {
+        "scrap": 15,
+        "plastic": 120,
+        "aluminium": 30
+    },
+    "additionalItems": {
+    }
+  },
+  {
+    "id": "gun trigger",
+    "displayName": "Gun Trigger",
+    "level": "Level 12",
+    "category": "Weapon Parts",
+    "materials": {
+        "scrap": 25,
+        "plastic": 130,
+        "aluminium": 40
+    },
+    "additionalItems": {
+    }
+  },
+  {
+    "id": "pistol slide",
+    "displayName": "Pistol Slide",
+    "level": "Level 14",
+    "category": "Weapon Parts",
+    "materials": {
+        "scrap": 40,
+        "plastic": 130,
+        "aluminium": 70
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "pistol grip",
+    "displayName": "Pistol Grip",
+    "level": "Level 16",
+    "category": "Weapon Parts",
+    "materials": {
+        "scrap": 55,
+        "plastic": 130,
+        "aluminium": 55
+    },
+    "additionalItems": {
+    }
+  },
+  {
+    "id": "pistol clip",
+    "displayName": "Pistol Clip",
+    "level": "Level 18",
+    "category": "Weapon Parts",
+    "materials": {
+        "scrap": 30,
+        "plastic": 130,
+        "aluminium": 55
+    },
+    "additionalItems": {
+    }
+  },
+  {
+    "id": "flashlight pistol",
+    "displayName": "Flashlight Pistol",
+    "level": "Level 10",
+    "category": "Weapon Attachments",
+    "materials": {
+        "electronics": 75,
+        "plastic": 75,
+        "scrap": 40,
+        "glass": 40
+    },
+    "additionalItems": {
+    }
+  },
+  {
+    "id": "small scope",
+    "displayName": "Small Scope",
+    "level": "Level 15",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "plastic": 75,
+        "electronics": 50,
+        "scrap": 5,
+        "glass": 25
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "pistol drum mag",
+    "displayName": "Pistol Drum Mag",
+    "level": "Level 20",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "aluminium": 115,
+        "plastic": 75,
+        "scrap": 115
+    },
+    "additionalItems": {
+        "titanium": 5
+    }
+  },
+  {
+    "id": "smg flashlight",
+    "displayName": "SMG Flashlight",
+    "level": "Level 20",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "plastic": 115,
+        "electronics": 115,
+        "scrap": 55,
+        "glass": 40
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "medium scope",
+    "displayName": "Medium Scope",
+    "level": "Level 20",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "plastic": 100,
+        "electronics": 75,
+        "scrap": 10,
+        "glass": 25
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "extended sub mag",
+    "displayName": "Extended Sub Mag",
+    "level": "Level 22",
+    "category": "Weapon Attachments",
+    "materials": {
+        "scrap": 115,
+        "plastic": 75,
+        "aluminium": 115
+    },
+    "additionalItems": {
+        "titanium": 5
+    }
+  },
+  {
+    "id": "sub drum mag",
+    "displayName": "Sub Drum Mag",
+    "level": "Level 25",
+    "category": "Weapon Attachments",
+    "materials": {
+        "scrap": 100,
+        "plastic": 75,
+        "aluminium": 100
+    },
+    "additionalItems": {
+        "titanium": 6
+    }
+  },
+  {
+    "id": "extended pistol mag",
+    "displayName": "Extended Pistol Mag",
+    "level": "Level 25",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "scrap": 75,
+        "plastic": 40,
+        "aluminium": 75
+    },
+    "additionalItems": {
+        "titanium": 10
+    }
+  },
+  {
+    "id": "shotgun suppressor",
+    "displayName": "Shotgun Suppressor",
+    "level": "Level 25",
+    "category": "Weapon Attachments",
+    "materials": {
+        "scrap": 205,
+        "plastic": 55,
+        "rubber": 85,
+        "steel": 180
+    },
+    "additionalItems": {
+        "titanium": 40
+    }
+  },
+  {
+    "id": "rifle flashlight",
+    "displayName": "Rifle Flashlight",
+    "level": "Level 30",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "plastic": 150,
+        "electronics": 150,
+        "scrap": 75,
+        "glass": 40
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "rifle grip",
+    "displayName": "Rifle Grip (makes 2)",
+    "level": "Level 15",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "plastic": 115,
+        "electronics": 75,
+        "scrap": 10,
+        "glass": 40
+    },
+    "additionalItems": {}
+  },
+    {
+    "id": "rifle suppressor",
+    "displayName": "Rifle Suppressor",
+    "level": "Level 25",
+    "category": "Weapon Attachments",
+    "materials": {
+        "scrap": 250,
+        "plastic": 75,
+        "rubber": 115,
+        "scrap": 10,
+        "steel": 270
+    },
+    "additionalItems": {
+        "titanium": 45
+    }
+  },
+    {
+    "id": "extended rifle mag",
+    "displayName": "Extended Rifle Mag",
+    "level": "Level 25",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "scrap": 150,
+        "plastic": 115,
+        "aluminium": 150
+    },
+    "additionalItems": {
+        "titanium": 10
+    }
+  },
+  {
+    "id": "large scope",
+    "displayName": "Large Scope",
+    "level": "Level 30",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "plastic": 125,
+        "electronics": 100,
+        "scrap": 15,
+        "glass": 25
+    },
+    "additionalItems": {}
+  },
+  {
+    "id": "pistol suppressor",
+    "displayName": "Pistol Suppressor",
+    "level": "Level 30",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "scrap": 150,
+        "steel": 150,
+        "rubber": 55
+    },
+    "additionalItems": {
+        "titanium": 15
+    }
+  },
+  {
+    "id": "smg suppressor",
+    "displayName": "SMG Suppressor",
+    "level": "Level 25",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "scrap": 205,
+        "steel": 180,
+        "rubber": 85,
+        "plastic": 55
+    },
+    "additionalItems": {
+        "titanium": 40
+    }
+  },
+  {
+    "id": "shotgun drum mag",
+    "displayName": "Shotgun Drum Mag",
+    "level": "Level 30",
+    "category": "Weapon Attachments",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "aluminium": 100,
+        "plastic": 75,
+        "scrap": 100
+    },
+    "additionalItems": {
+        "titanium": 6
+    }
+  },
+  {
+    "id": "extended shotgun mag",
+    "displayName": "Extended Shotgun Mag",
+    "level": "Level 32",
+    "category": "Weapon Attachments",
+    "materials": {
+        "scrap": 150,
+        "plastic": 115,
+        "aluminium": 150
+    },
+    "additionalItems": {
+        "titanium": 10
+    }
+  },
+  {
+    "id": "pistol ammo",
+    "displayName": "Pistol Ammo",
+    "level": "Level 5",
+    "category": "Ammo",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "scrap": 10
+    },
+    "additionalItems": {
+        "gunpowder": 10
+    }
+  },
+  {
+    "id": "smg ammo",
+    "displayName": "SMG Ammo",
+    "level": "Level 19",
+    "category": "Ammo",
+    "blueprint": "Blueprint Required",
+    "materials": {
+        "scrap": 15
+    },
+    "additionalItems": {
+        "gunpowder": 15
+    }
+  }
+]
