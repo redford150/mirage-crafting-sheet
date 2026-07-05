@@ -274,6 +274,16 @@ button {
   color: #111;
 }
 
+.top-panel {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #fff;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
 .app-shell h1 {
   margin-bottom: 16px;
   font-size: 2rem;

@@ -12,7 +12,7 @@ const App = {
       return;
     }
 
-    this.root.innerHTML = '<div class="app-shell"><h1>Mirage Crafting Sheet</h1><div id="app-controls"></div><div id="recipe-list"></div></div>';
+    this.root.innerHTML = '<div class="app-shell"><div class="top-panel"><h1>Mirage Crafting Sheet</h1><div id="app-controls"></div></div><div id="recipe-list"></div></div>';
 
     try {
       const response = await fetch('recipes.json');
