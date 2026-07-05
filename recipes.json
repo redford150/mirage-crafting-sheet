@@ -9,5 +9,60 @@
         "metal scrap": 24,
         "rubber": 7
     }
+  },
+  {
+    "id": "lockpick",
+    "displayName": "Lockpick",
+    "level": "Level 0",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 28,
+        "metal scrap": 24,
+        "rubber": 7
+    }
+  },
+  {
+    "id": "lockpick",
+    "displayName": "Lockpick",
+    "level": "Level 0",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 28,
+        "metal scrap": 24,
+        "rubber": 7
+    }
+  },
+  {
+    "id": "lockpick",
+    "displayName": "Lockpick",
+    "level": "Level 0",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 28,
+        "metal scrap": 24,
+        "rubber": 7
+    }
+  },
+  {
+    "id": "lockpick",
+    "displayName": "Lockpick",
+    "level": "Level 0",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 28,
+        "metal scrap": 24,
+        "rubber": 7
+    }
+  },
+  {
+    "id": "lockpick",
+    "displayName": "Lockpick",
+    "level": "Level 0",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 28,
+        "metal scrap": 24,
+        "rubber": 7
+    }
   }
 ]
