@@ -129,9 +129,6 @@ const App = {
       }
 
       if (recipe.additionalItems && Object.keys(recipe.additionalItems).length > 0) {
-        const additionalHeader = document.createElement('tr');
-        additionalHeader.innerHTML = '<th colspan="2">Additional Items</th>';
-        table.appendChild(additionalHeader);
         renderItems(recipe.additionalItems);
       }
 
