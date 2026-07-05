@@ -271,22 +271,24 @@ button {
 .app-shell {
   padding: 20px;
   font-family: Inter, system-ui, sans-serif;
-  color: #111;
+  color: #eff6ff;
 }
 
 .top-panel {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: #fff;
-  padding-bottom: 16px;
+  background: rgba(15, 23, 42, 0.88);
+  backdrop-filter: blur(16px);
+  padding: 20px 20px 16px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.22);
 }
 
 .app-shell h1 {
   margin-bottom: 16px;
   font-size: 2rem;
+  color: #eef2ff;
 }
 
 .controls {
@@ -299,9 +301,15 @@ button {
 .controls input,
 .controls select {
   padding: 10px 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  border-radius: 12px;
   min-width: 220px;
+  background: rgba(15, 23, 42, 0.72);
+  color: #e2e8f0;
+}
+
+.controls input::placeholder {
+  color: #94a3b8;
 }
 
 .recipe-list {
@@ -311,20 +319,21 @@ button {
 }
 
 .recipe-card {
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  padding: 16px;
-  background: #fff;
-  box-shadow: 0 8px 20px rgba(15, 23, 42, .05);
+  border: 1px solid rgba(147, 197, 253, 0.22);
+  border-radius: 18px;
+  padding: 18px;
+  background: rgba(15, 23, 42, 0.78);
+  box-shadow: 0 20px 40px rgba(56, 90, 255, 0.14);
 }
 
 .recipe-card h2 {
   margin: 0 0 8px;
   font-size: 1.2rem;
+  color: #eef2ff;
 }
 
 .recipe-card .meta {
-  color: #555;
+  color: #c7d2fe;
   margin-bottom: 12px;
   font-size: .95rem;
 }
@@ -343,21 +352,25 @@ button {
 .recipe-card th,
 .recipe-card td {
   text-align: left;
-  padding: 6px 8px;
-  border-bottom: 1px solid #f0f0f0;
+  padding: 8px 10px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18);
 }
 
 .recipe-card th {
   width: 35%;
-  color: #333;
+  color: #c7d2fe;
+}
+
+.recipe-card td {
+  color: #e2e8f0;
 }
 
 .no-results,
 .error {
   padding: 16px;
-  background: #fff4f4;
-  border: 1px solid #f5c2c7;
-  color: #842029;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(96, 165, 250, 0.28);
+  color: #dbeafe;
   border-radius: 12px;
 }
 
@@ -697,6 +710,11 @@ video {
 
 body {
   font-family: Inter, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(180deg, #6d4bff 0%, #4f46e5 40%, #2563eb 100%);
+  color: #f8fafc;
+  background-attachment: fixed;
 }
 
 .dark-background {
