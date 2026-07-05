@@ -14,7 +14,7 @@ const App = {
     this.root.innerHTML = '<div class="app-shell"><h1>Mirage Crafting Sheet</h1><div id="app-controls"></div><div id="recipe-list"></div></div>';
 
     try {
-      const response = await fetch('/recipes.json');
+      const response = await fetch('recipes.json');
       if (!response.ok) throw new Error(`Failed to load recipes: ${response.status}`);
       this.recipes = await response.json();
     } catch (error) {
