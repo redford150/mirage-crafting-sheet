@@ -11,7 +11,6 @@ const App = {
       return;
     }
 
-    this.insertStyles();
     this.root.innerHTML = '<div class="app-shell"><h1>Mirage Crafting Sheet</h1><div id="app-controls"></div><div id="recipe-list"></div></div>';
 
     try {
@@ -27,26 +26,6 @@ const App = {
     this.categories = ['All', ...new Set(this.recipes.map(recipe => recipe.category || 'Unknown'))];
     this.renderControls();
     this.renderRecipes();
-  },
-
-  insertStyles() {
-    const style = document.createElement('style');
-    style.textContent = `
-      .app-shell { padding: 20px; font-family: Inter, system-ui, sans-serif; color: #111; }
-      .app-shell h1 { margin-bottom: 16px; font-size: 2rem; }
-      .controls { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
-      .controls input, .controls select { padding: 10px 12px; border: 1px solid #ccc; border-radius: 8px; min-width: 220px; }
-      .recipe-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
-      .recipe-card { border: 1px solid #ddd; border-radius: 16px; padding: 16px; background: #fff; box-shadow: 0 8px 20px rgba(15,23,42,.05); }
-      .recipe-card h2 { margin: 0 0 8px; font-size: 1.2rem; }
-      .recipe-card .meta { color: #555; margin-bottom: 12px; font-size: .95rem; }
-      .recipe-card .meta span { display: inline-block; margin-right: 12px; }
-      .recipe-card table { width: 100%; border-collapse: collapse; margin-top: 12px; }
-      .recipe-card th, .recipe-card td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #f0f0f0; }
-      .recipe-card th { width: 35%; color: #333; }
-      .no-results, .error { padding: 16px; background: #fff4f4; border: 1px solid #f5c2c7; color: #842029; border-radius: 12px; }
-    `;
-    document.head.appendChild(style);
   },
 
   renderControls() {
