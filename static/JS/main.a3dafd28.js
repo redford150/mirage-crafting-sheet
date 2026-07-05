@@ -3,6 +3,7 @@ const App = {
   recipes: [],
   filteredRecipes: [],
   categories: [],
+  quantity: 1,
 
   async init() {
     this.root = document.getElementById('root');
@@ -50,8 +51,20 @@ const App = {
     });
     categorySelect.addEventListener('change', () => this.onFilterChange(search.value, categorySelect.value));
 
+    const quantityInput = document.createElement('input');
+    quantityInput.type = 'number';
+    quantityInput.min = '1';
+    quantityInput.value = this.quantity;
+    quantityInput.placeholder = 'Quantity';
+    quantityInput.addEventListener('input', () => {
+      this.quantity = Math.max(1, parseInt(quantityInput.value, 10) || 1);
+      quantityInput.value = this.quantity;
+      this.renderRecipes();
+    });
+
     container.appendChild(search);
     container.appendChild(categorySelect);
+    container.appendChild(quantityInput);
     controls.appendChild(container);
   },
 
@@ -101,8 +114,9 @@ const App = {
       const renderItems = items => {
         if (!items || Object.keys(items).length === 0) return;
         Object.entries(items).forEach(([name, value]) => {
+          const scaledValue = typeof value === 'number' ? value * this.quantity : value;
           const row = document.createElement('tr');
-          row.innerHTML = `<td>${name}</td><td>${value}</td>`;
+          row.innerHTML = `<td>${name}</td><td>${scaledValue}</td>`;
           table.appendChild(row);
         });
       };
