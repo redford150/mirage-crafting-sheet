@@ -286,9 +286,15 @@ button {
 }
 
 .app-shell h1 {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   font-size: 2rem;
   color: #eef2ff;
+}
+
+.subtitle {
+  color: #c7d2fe;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
 }
 
 .controls {
