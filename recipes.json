@@ -11,14 +11,17 @@
     }
   },
   {
-    "id": "lockpick",
-    "displayName": "Lockpick",
+    "id": "vpn",
+    "displayName": "VPN",
     "level": "Level 0",
     "category": "Tool",
     "additionalItems": {
-        "plastic": 28,
-        "metal scrap": 24,
-        "rubber": 7
+        "wire": 100,
+        "metal scrap": 25,
+        "rubber": 50,
+        "electronics": 100,
+        "steel": 50,
+        "broken VPN": 1
     }
   },
   {
