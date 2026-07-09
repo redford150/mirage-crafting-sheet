@@ -11,13 +11,25 @@
     }
   },
   {
+    "id": "zipties",
+    "displayName": "Zipties",
+    "level": "Level 1",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 57,
+        "steel": 18,
+        "aluminium": 18,
+        "wire": 12
+    }
+  },
+  {
     "id": "vpn",
     "displayName": "VPN",
     "level": "Level 0",
     "category": "Tool",
     "additionalItems": {
         "wire": 100,
-        "metal scrap": 25,
+        "scrap": 25,
         "rubber": 50,
         "electronics": 100,
         "steel": 50,
