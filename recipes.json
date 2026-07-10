@@ -23,6 +23,17 @@
     }
   },
   {
+    "id": "advanced lockpicks",
+    "displayName": "Advanced Lockpicks",
+    "level": "Level N/A",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 20,
+        "scrap": 20,
+        "aluminium": 20
+    }
+  },
+  {
     "id": "pocket scale",
     "displayName": "Pocket Scale",
     "level": "Level N/A",
