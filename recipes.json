@@ -35,27 +35,36 @@
     }
   },
   {
-    "id": "switch blade",
-    "displayName": "Switch Blade",
+    "id": "toolkit",
+    "displayName": "Toolkit",
     "level": "Level N/A",
     "category": "Tool",
     "additionalItems": {
-        "plastic": 35,
-        "metal scrap": 50,
-        "aluminium": 20,
-        "titanium": 3
+        "plastic": 5,
+        "metal scrap": 5,
+        "aluminium": 5
     }
   },
   {
-    "id": "switch blade",
-    "displayName": "Switch Blade",
+    "id": "heavy cutters",
+    "displayName": "Heavy Cutters",
     "level": "Level N/A",
     "category": "Tool",
     "additionalItems": {
-        "plastic": 35,
-        "metal scrap": 50,
-        "aluminium": 20,
-        "titanium": 3
+        "plastic": 10,
+        "metal scrap": 25,
+        "steel": 8,
+        "rubber": 7,
+        "titanium": 2
+    }
+  },
+  {
+    "id": "bong",
+    "displayName": "Bong",
+    "level": "Level N/A",
+    "category": "Tool",
+    "additionalItems": {
+        "glass": 10
     }
   },
   {
@@ -70,7 +79,30 @@
         "electronics": 100,
         "steel": 50,
         "broken VPN": 1
+    },
+    {
+    "id": "switch blade",
+    "displayName": "Switch Blade",
+    "level": "Level N/A",
+    "category": "Melee",
+    "additionalItems": {
+        "plastic": 35,
+        "metal scrap": 50,
+        "aluminium": 20,
+        "titanium": 3
+    },
+    {
+    "id": "machete",
+    "displayName": "Machete",
+    "level": "Level N/A",
+    "category": "Melee",
+    "additionalItems": {
+        "plastic": 25,
+        "metal scrap": 40,
+        "aluminium": 20,
+        "titanium": 3
     }
+  }
   }
   
 ]
