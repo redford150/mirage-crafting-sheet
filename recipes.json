@@ -103,6 +103,7 @@
         "electronics": 100,
         "steel": 50,
         "broken VPN": 1
+      }
     },
     {
     "id": "switch blade",
@@ -114,6 +115,7 @@
         "metal scrap": 50,
         "aluminium": 20,
         "titanium": 3
+      }
     },
     {
     "id": "machete",
@@ -126,7 +128,6 @@
         "aluminium": 20,
         "titanium": 3
     }
-  }
   }
   
 ]
