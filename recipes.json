@@ -23,9 +23,45 @@
     }
   },
   {
+    "id": "pocket scale",
+    "displayName": "Pocket Scale",
+    "level": "Level N/A",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 25,
+        "scrap": 10,
+        "glass": 10,
+        "electronics": 5
+    }
+  },
+  {
+    "id": "switch blade",
+    "displayName": "Switch Blade",
+    "level": "Level N/A",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 35,
+        "metal scrap": 50,
+        "aluminium": 20,
+        "titanium": 3
+    }
+  },
+  {
+    "id": "switch blade",
+    "displayName": "Switch Blade",
+    "level": "Level N/A",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 35,
+        "metal scrap": 50,
+        "aluminium": 20,
+        "titanium": 3
+    }
+  },
+  {
     "id": "vpn",
     "displayName": "VPN",
-    "level": "Level 0",
+    "level": "Level N/A",
     "category": "Tool",
     "additionalItems": {
         "wire": 100,
