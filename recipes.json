@@ -46,6 +46,30 @@
     }
   },
   {
+    "id": "crowbar",
+    "displayName": "Crowbar",
+    "level": "Level N/A",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 25,
+        "metal scrap": 40,
+        "titanium": 3,
+        "aluminium": 20
+    }
+  },
+  {
+    "id": "fake plate",
+    "displayName": "Fake Plate",
+    "level": "Level N/A",
+    "category": "Tool",
+    "additionalItems": {
+        "plastic": 10,
+        "metal scrap": 15,
+        "steel": 5,
+        "aluminium": 5
+    }
+  },
+  {
     "id": "heavy cutters",
     "displayName": "Heavy Cutters",
     "level": "Level N/A",
